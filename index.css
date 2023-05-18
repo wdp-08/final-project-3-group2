@@ -16,6 +16,22 @@ body {
   padding-bottom: 100px;
 }
 
+.newsletter h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #020e35;
+}
+
+.newsletter h3 {
+  font-size: 90px;
+  font-weight: 400;
+  color: #020e35;
+}
+
+.newsletter .hear {
+  color: #e73587;
+}
+
 .newsletter label {
   font-size: 16px;
   font-weight: 400;
@@ -27,29 +43,22 @@ body {
   background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
   color: white;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 400;
+}
+
+.newsletter button:hover {
+  color: white;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+}
+
+.newsletter button:active {
+  color: white !important;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+  filter: brightness(95%);
 }
 
 .footer h6 {
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
-}
-
-@media screen and (max-width: 1024px) {
-  .navbar .navbar-collapse {
-    padding-top: 1.2rem !important;
-  }
-
-  .modal-home .carousel-inner img {
-    height: 20rem !important;
-  }
-
-  .modal-home .d-none {
-    display: inline !important;
-  }
-
-  .modal-brand-img .modal-lg {
-    max-width: 100% !important;
-  }
 }
