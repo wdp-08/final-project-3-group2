@@ -9,16 +9,8 @@ body {
   background: linear-gradient(180deg, white 0%, white 56%, #020e35 30%, #020e35 100%);
 }
 
-.col-md-8 {
-  padding-top: 60px;
-  padding-left: 230px;
-}
 
-.col-md-4 {
-  padding-top: 60px;
-  margin-left: 0px;
-  padding-left: 0px;
-}
+
 
 .ourwork {
   background-color: white;
@@ -55,6 +47,30 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #FFFFFF;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.ourwork button {
+  height: 40px;
+  width: 140px;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.ourwork button:hover {
+  color: white;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+}
+
+.ourwork button:active {
+  color: white !important;
+  background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+  filter: brightness(95%);
 }
 
 
