@@ -1,0 +1,47 @@
+/* styling untuk load font */
+@font-face {
+    font-family: Basic;
+    src: url("../fonts/Basic-Regular.ttf");
+}
+
+/* styling keseluruhan body */
+body {
+    font-family: 'Basic';
+    font-style: normal;
+    background-color: #020E35;
+}
+
+/* styling untuk judul */
+.title {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+/* styling lebar gambar konten */
+.content-img {
+    width: 70%;
+}
+
+/* warna background oranye */
+.bg-orange {
+    background-color: #F09532;
+}
+
+/* warna background ungu */
+.bg-purple {
+    background-color: #8C32F0;
+}
+
+/* styling garis pada bawah judul */
+.h-line {
+    border-top: 2px solid #E73587;
+    width: 110px;
+    margin: 0px auto;
+}
+
+/* setting text-aligning untuk tampilan responsif */
+@media only screen and (max-width: 1000px) {
+    .mobile-view {
+        text-align: center !important;
+    }
+}
