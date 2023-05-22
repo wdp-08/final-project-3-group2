@@ -1,11 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Basic;
+  }
+  
+body {
+    background: linear-gradient(180deg, white 0%, white 56%, #020e35 30%, #020e35 100%);
+}
+
 /* styling untuk load font */
 @font-face {
     font-family: Basic;
     src: url("../fonts/Basic-Regular.ttf");
 }
 
-/* styling keseluruhan body */
-body {
+/* styling section ourwork */
+.ourwork {
     font-family: 'Basic';
     font-style: normal;
     background-color: #020E35;
@@ -22,6 +33,13 @@ body {
     width: 70%;
 }
 
+.content-img2 {
+    width: 100%;
+    padding-top: 35px;
+}
+
+
+
 /* warna background oranye */
 .bg-orange {
     background-color: #F09532;
@@ -30,6 +48,17 @@ body {
 /* warna background ungu */
 .bg-purple {
     background-color: #8C32F0;
+}
+
+.bg-pink {
+    background-color: #E73587;
+    height: 348px;
+}
+
+/* warna bg biru */
+.bg-blue {
+    background-color: #32D6F0;
+    height: 348px;
 }
 
 /* styling garis pada bawah judul */
@@ -45,3 +74,81 @@ body {
         text-align: center !important;
     }
 }
+
+.ourwork button {
+    height: 40px;
+    width: 140px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ourwork button:hover {
+    color: white;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+}
+  
+.ourwork button:active {
+    color: white !important;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+    filter: brightness(95%);
+}
+
+/* Newsletter */
+
+.newsletter {
+    background-color: white;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .newsletter h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #020e35;
+  }
+  
+  .newsletter h3 {
+    font-size: 90px;
+    font-weight: 400;
+    color: #020e35;
+  }
+  
+  .newsletter .hear {
+    color: #e73587;
+  }
+  
+  .newsletter label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c3241;
+  }
+  
+  .newsletter button {
+    height: 55px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .newsletter button:hover {
+    color: white;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+  }
+  
+  .newsletter button:active {
+    color: white !important;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 30%);
+    filter: brightness(95%);
+  }
+  
+  .footer h6 {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+
