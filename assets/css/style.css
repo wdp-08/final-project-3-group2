@@ -15,6 +15,251 @@ body {
     src: url("../fonts/Basic-Regular.ttf");
 }
 
+/* Header and Banner */
+* {
+  margin: 0;
+}
+
+@media only screen and (max-width:999px){
+  .header,
+  .banner {
+    font-family: "Basic", sans-serif;
+  }
+  
+  .logo {
+    background-color: #020e35;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #8c32f0 4px solid;
+  }
+  
+  .hamburger {
+    background-color: #020e35;
+    border: none;
+    color: white;
+  }
+  
+  .hamburger svg {
+    height: 100%;
+    scale: 2;
+  }
+  
+  .menus {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menus a {
+    background-color: white;
+    padding: 6px 8px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .contact {
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+    text-align: center;
+    padding: 6px;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .banner {
+    padding-top: 50px;
+  }
+  
+  .text-banner {
+    text-align: center;
+  }
+  
+  .text-banner h1 {
+    font-size: 36px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .button-banner {
+    position:absolute;
+    top: 220px;
+    left: 170px;
+    bottom: 0px;
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
+  
+  .button-banner h1 a {
+    position: absolute;
+    top: 12px;
+    left: 32px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ffff;
+  }
+  
+  .img-banner {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .img-banner img {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    width: 1400px;
+    height: 80px;
+    position: absolute;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    left: 0px;
+    top: 0px;
+  }
+
+  .logo {
+    position: absolute;
+    background: #020e35;
+    width: 100px;
+    height: 120px;
+    left: 135px;
+  }
+
+  .logo svg {
+    position: absolute;
+    left: 28px;
+    top: 27px;
+  }
+
+  .minbox {
+    position: absolute;
+    top: 114px;
+    width: 100px;
+    height: 6px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
+
+  .menus {
+    display: unset;
+    position: absolute;
+    left: 776px;
+    top: 32px;
+  }
+
+  .menus a {
+    text-decoration: none;
+    margin-right: 57px;
+    font-family: 'Basic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: black;
+  }
+
+  .contact {
+    display: unset;
+    position: absolute;
+    left: 1198px;
+    top: 20px;
+    width: 107px;
+    height: 40px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
+
+  .contact h1 {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-family: "Basic", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .contact h1 a {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+  .banner {
+    width: 1440px;
+    height: 785px;
+  }
+
+  .text-banner {
+    position: absolute;
+    top: 252px;
+    left: 135px;
+    width: 531px;
+    height: 426px;
+  }
+
+  .text-banner h1 {
+    position: absolute;
+    margin-top: 0px;
+    color: #020e35;
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 97px;
+    line-height: 122px;
+  }
+
+  .img-banner {
+    position: absolute;
+    width: 740px;
+    height: 566px;
+    top: 118px;
+    left: 700px;
+    right: 0px;
+  }
+
+  .img-banner img {
+    width: 700px;
+    height: 566px;
+    position: absolute;
+  }
+
+  .button-banner {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+  }
+
+  .button-banner h1 {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-family: "Basic", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .button-banner h1 a {
+    text-decoration: none;
+    color: #ffff;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
 /* styling section ourwork */
 .ourwork {
     font-family: 'Basic';
