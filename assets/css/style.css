@@ -85,22 +85,11 @@ body {
     padding-left: 50px;
     padding-right: 50px;
   }
-
-  .button-banner {
-    position:absolute;
-    top: 220px;
-    left: 170px;
-    bottom: 0px;
-    width: 140px;
-    height: 40px;
-    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
-  }
   
   .button-banner h1 a {
-    position: absolute;
-    top: 12px;
-    left: 32px;
-    font-size: 12px;
+    padding: 10px 20px;
+    background: linear-gradient(270deg, #8c32f0 0%, #e73587 100%);
+    font-size: 15px;
     text-decoration: none;
     color: #ffff;
   }
