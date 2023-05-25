@@ -404,4 +404,11 @@ body {
 
 }
   
+@media (max-width: 600px) {
+  .tombol-samping {
+      display: none;
+  }
+}
+
+
 
